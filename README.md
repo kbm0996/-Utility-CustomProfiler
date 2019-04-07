@@ -4,7 +4,7 @@
  
  단순한 프로그램을 성능 분석의 대상으로 삼는 것은 큰 의미가 없으나, MMO 서버와 같이 대규모의 데이터를 처리할 경우에는 약간의 시간 절약도 매우 큰 성능 향상으로 이어진다. 따라서, 프로파일링을 하면서 비효율적인 코드를 발견하고 효율적인 코드로 수정하는 것이 매우 중요하다. 
 
-## 💻 LFMemoryPool과 LFMemoryPool_TLS 성능 비교
+## 💻 PROFILER Example : LFMemoryPool vs. LFMemoryPool_TLS
   해당 프로그램은 락프리 메모리풀과 TLS를 활용한 락프리 메모리풀의 성능 차이를 비교할 수 있다.
 
   ![capture](https://github.com/kbm0996/MyProfiler/blob/master/figure/run.png)
