@@ -149,10 +149,13 @@
     <ClInclude Include="APIHook.h" />
     <ClInclude Include="CLFMemoryPool.h" />
     <ClInclude Include="CLFMemoryPool_TLS.h" />
+    <ClInclude Include="CProfiler.h" />
     <ClInclude Include="CrashDump.h" />
+    <ClInclude Include="CSystemLog.h" />
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="APIHook.cpp" />
+    <ClCompile Include="CProfiler.cpp" />
     <ClCompile Include="CrashDump.cpp" />
     <ClCompile Include="_main.cpp" />
   </ItemGroup>

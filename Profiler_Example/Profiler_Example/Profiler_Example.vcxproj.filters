@@ -36,6 +36,12 @@
     <ClInclude Include="CLFMemoryPool.h">
       <Filter>소스 파일\CLFMemoryPool</Filter>
     </ClInclude>
+    <ClInclude Include="CProfiler.h">
+      <Filter>헤더 파일\CProfiler</Filter>
+    </ClInclude>
+    <ClInclude Include="CSystemLog.h">
+      <Filter>헤더 파일</Filter>
+    </ClInclude>
   </ItemGroup>
   <ItemGroup>
     <ClCompile Include="_main.cpp">
@@ -46,6 +52,9 @@
     </ClCompile>
     <ClCompile Include="APIHook.cpp">
       <Filter>소스 파일\CrashDump</Filter>
+    </ClCompile>
+    <ClCompile Include="CProfiler.cpp">
+      <Filter>헤더 파일\CProfiler</Filter>
     </ClCompile>
   </ItemGroup>
 </Project>
